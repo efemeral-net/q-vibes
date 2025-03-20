@@ -7,7 +7,7 @@ tell application id "com.figure53.QLab.5" to tell front workspace
 	
 	-- Make sure it's an audio cue
 	if q type of selectedCue is "Audio" then
-		-- Get the total duration once at the start
+		-- Get the total duration onwrce at the start
 		set totalDuration to duration of selectedCue
 		log "Total track duration: " & totalDuration
 		
